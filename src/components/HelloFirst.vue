@@ -10,7 +10,7 @@
             <v-col class="text-center" cols="12">
                 <h1 class="display-2 font-weight-thin">Advanced Restaurant POS Platform</h1>
                 <h4 class="headline pb-lg-4 pt-1">A world-class point-of-sale software that syncs across all digital channels through a single, powerful platform.</h4>
-                <router-link to="/start/start-now.html">
+                <router-link to="/meeting">
                     <v-btn @click.stop="dialog = !dialog" aria-label="Website Pricing" color="light-blue darken-4" dark class="ma-2" round>
                         Schedule Your Demo
                     </v-btn>

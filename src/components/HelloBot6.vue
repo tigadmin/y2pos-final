@@ -9,7 +9,7 @@
                     justify="center"
             >
                 <v-col class="text-center" cols="12">
-                    <h1 class="display-2 pb-5 font-weight-thin">Get A Custom Quote</h1>
+                    <h1 class="display-2 pb-5 font-weight-thin">Watch Our Video Series</h1>
                     <h4 class="headline pb-5">
                         No Commission | No Hidden Fees | No Middle Man</h4>
                     <router-link to="/restaurant-pos-quote-pricing">

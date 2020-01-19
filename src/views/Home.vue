@@ -1,11 +1,12 @@
 <template>
   <div class="home">
+    <Alert />
     <HelloWorld />
     <HelloTop />
-    <HelloSecond />
-    <HelloVideo />
+    <HelloWorld1 />
+    <RestaurantPos3 />
     <HelloThird />
-    <HelloBot />
+    <HelloBot2 />
   </div>
 </template>
 
@@ -13,19 +14,22 @@
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import HelloTop from "@/components/HelloTop.vue";
-import HelloSecond from "@/components/HelloSecond.vue";
+import HelloWorld1 from "@/components/HelloWorld1.vue";
 import HelloThird from "@/components/HelloThird.vue";
-import HelloVideo from "@/components/HelloVideo.vue";
-import HelloBot from "@/components/HelloBot.vue";
+import RestaurantPos3 from "@/components/RestaurantPos3.vue";
+import HelloBot2 from "@/components/HelloBot2.vue";
+import Alert from "@/components/Alert.vue";
+
 export default {
   name: "home",
   components: {
+    HelloWorld1,
+    Alert,
     HelloTop,
-    HelloSecond,
     HelloThird,
-    HelloBot,
-    HelloVideo,
-    HelloWorld
+    HelloBot2,
+    RestaurantPos3,
+    HelloWorld,
   }
 };
 </script>

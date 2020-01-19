@@ -1,17 +1,17 @@
 <template>
         <v-parallax
                 dark
-                src="/img/img/05-02.png"
+                src="/img/img/ri-restaurant-online-ordering-no-commission.jpg"
         >
             <v-row
                     align="center"
                     justify="center"
             >
                 <v-col class="text-center" cols="12">
-                    <h1 class="display-2 pb-5 font-weight-thin">Restaurant POS Software</h1>
+                    <h1 class="display-2 pb-5 font-weight-thin">Take Back Control Of Your Online Ordering</h1>
                     <h4 class="headline pb-5">
-                        Increase sales, acquire more customers and manage your business more efficiently</h4>
-                    <router-link to="/start/start-now.html">
+                        No Commission | No Fees | No Middle Man</h4>
+                    <router-link to="/meeting">
                         <v-btn @click.stop="dialog = !dialog" aria-label="Website Pricing" color="light-blue darken-4" dark class="ma-2" round>
                             Schedule Your Demo
                         </v-btn>

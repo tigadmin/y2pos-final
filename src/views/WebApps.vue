@@ -1,32 +1,27 @@
 <template>
-  <div class="home">
-    <HelloWorld />
-    <HelloTop />
-    <HelloWorld1 />
-    <HelloThird />
-    <HelloBot />
+  <div class="webapps">
+    <WebView />
+    <WebView2 />
     <RestaurantPos3 />
+    <HelloBot5 />
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-import HelloTop from "@/components/HelloTop.vue";
-import HelloWorld1 from "@/components/HelloWorld1.vue";
-import HelloThird from "@/components/HelloThird.vue";
-import HelloBot from "@/components/HelloBot.vue";
+import WebView from "@/components/WebView.vue";
+import WebView2 from "@/components/WebView2.vue";
+import HelloBot5 from "@/components/HelloBot5.vue";
 import RestaurantPos3 from "@/components/RestaurantPos3.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld1,
-    HelloTop,
-    HelloThird,
-    HelloBot,
+    WebView,
+    WebView2,
+    HelloBot5,
     RestaurantPos3,
-    HelloWorld,
   }
 };
 </script>

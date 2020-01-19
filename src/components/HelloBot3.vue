@@ -9,10 +9,10 @@
                     justify="center"
             >
                 <v-col class="text-center" cols="12">
-                    <h1 class="display-2 pb-5 font-weight-thin">#1 Digital POS System For Restaurants</h1>
+                    <h1 class="display-2 pb-5 font-weight-thin">Web And Mobile Apps Included</h1>
                     <h4 class="headline pb-5">
-                        No Commission | No Hidde Fees | No Middle Man</h4>
-                    <router-link to="/restaurant-pos-platform">
+                        No Commission | No Hidden Fees | No Middle Man</h4>
+                    <router-link to="/restaurant-website-mobile">
                         <v-btn @click.stop="dialog = !dialog" aria-label="Website Pricing" color="light-blue darken-4" dark class="ma-2" round>
                             Learn More
                         </v-btn>

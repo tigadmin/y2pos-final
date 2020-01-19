@@ -1,0 +1,21 @@
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("../vendor/css/fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("../vendor/css/fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"),
+    url("../vendor/css/fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../vendor/css/fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("../vendor/css/fonts/SegoeUILight/SegoeUILight.eot");
+    src: url("../vendor/css/fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"),
+    url("../vendor/css/fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("../vendor/css/fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

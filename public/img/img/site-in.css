@@ -1,0 +1,161 @@
+/* start */
+#start .play-arrows{
+    /*display: block;*/
+}
+
+#start .start-list {
+    margin-top: 4vh;
+}
+
+#start .business-type {
+    /*display: block;*/
+    font-size: 0.9em;
+}
+
+.mobile #start .business-type {
+    font-size: 4em;
+}
+
+#start .main-title-mobile{
+    padding-top: 70px;
+}
+
+#start .main-title{
+    padding: 1% 0 1%;
+    font-size: 3.2em;
+}
+
+#start .home-title {
+    padding-top: 20px;
+}
+
+#start ul.custom-bullet {
+    font-size: 2.9em;
+}
+
+#start ul.custom-bullet > li {
+    font-size: 0.7em !important;
+    margin-bottom: 0.7em !important;
+    letter-spacing: .1em;
+}
+
+#start .checkmark .text-tiny{
+    font-size: 0.8em;
+}
+
+@media (min-width: 1701px) {
+    #start .main-title{
+        font-size: 4vh;
+    }
+
+    #start .business-type {
+        font-size: 1vh;
+    }
+
+    #start ul.custom-bullet > li {
+        font-size: 3vh !important;
+    }
+}
+
+/* system */
+#system .content > .content-text {
+    padding: 1.5em 1.7em 3em 1.7em;
+    height: 36em;
+}
+
+.mobile #system .content > .content-text {
+    padding: 2em;
+    height: auto;
+}
+
+@media (min-width: 1401px) and (max-width: 1700px) {
+    #system .content > .content-text {
+        height: 31em;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #system .content > .content-text {
+        height: 26em;
+    }
+}
+
+@media (max-width: 1199px) {
+    #system .content > .content-text {
+        height: 28em;
+    }
+}
+
+@media (max-width: 991px) {
+    #system .content > .content-text {
+        height: 25em;
+    }
+}
+
+@media screen and (max-aspect-ratio: 13/9) {
+    .mobile #system {
+        min-height: 1250vw;
+        height: 515vw;
+    }
+}
+
+/* pos-system */
+@media screen and (max-aspect-ratio: 13/9) {
+    .mobile .animated_slider {
+        top: 52vw;
+    }
+}
+
+/* conditions */
+#conditions .condition-title {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+#conditions .condition-block-img {
+    margin-bottom: 3em;
+}
+
+#conditions .price{
+    padding: 3px 8px;
+    background-color: #ffefbe;
+}
+
+#conditions .condition-block-price {
+    font-size: 2em;
+}
+
+@media screen and (max-aspect-ratio: 13/9) {
+    .mobile #conditions .condition-block-price {
+        font-size: 5em;
+    }
+
+    .mobile #conditions .condition-title {
+        margin-top: 2vh;
+        margin-bottom: 10vh;
+    }
+
+    .mobile #conditions .condition-block {
+        margin-bottom: 12vh;
+    }
+}
+
+/* pricing */
+@media (max-width: 991px) {
+    #pricing {
+        max-height: 115vh;
+        height: 115vh;
+    }
+}
+
+/*contacts*/
+@media screen and (max-aspect-ratio: 13/9) {
+    .mobile #contacts {
+        height: 410vw;
+    }
+}
+
+/* terminal */
+#terminal .hw-accessories-table td{
+    vertical-align: top !important;
+}

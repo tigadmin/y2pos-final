@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d63146a7c641961a8706",
-    "url": "/css/app.b6e58ad3.css"
+    "revision": "f9bbe1b203c618b316df",
+    "url": "/css/app.55e5b1db.css"
   },
   {
     "revision": "48279662c726dbdcafe6",
     "url": "/css/chunk-vendors.9de05d69.css"
   },
   {
-    "revision": "cde2beec8c309c36133e",
-    "url": "/css/onlineorderingrestaurants.7d383046.css"
+    "revision": "ec5b7275e14547418549",
+    "url": "/css/onlineorderingrestaurants.d1fc3da9.css"
   },
   {
-    "revision": "71216d6989f302b1ae09",
-    "url": "/css/pos.5854b1da.css"
+    "revision": "b40ea997a8e5e93074b0",
+    "url": "/css/pos.babd4d98.css"
   },
   {
     "revision": "95a6edde9f46b52fc8dd6f8c0b9cb2f9",
@@ -3300,7 +3300,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/restaurant/yumapos999.png"
   },
   {
-    "revision": "c0cf221844727c71d1d65ffc07f1cad2",
+    "revision": "e4693ca8deac29c1769382aba9101c6d",
     "url": "/index.html"
   },
   {
@@ -3308,20 +3308,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.28c88e64.js"
   },
   {
-    "revision": "d63146a7c641961a8706",
-    "url": "/js/app.52987323.js"
+    "revision": "f9bbe1b203c618b316df",
+    "url": "/js/app.f2deb3a6.js"
   },
   {
     "revision": "48279662c726dbdcafe6",
     "url": "/js/chunk-vendors.de309659.js"
   },
   {
-    "revision": "cde2beec8c309c36133e",
-    "url": "/js/onlineorderingrestaurants.0a824770.js"
+    "revision": "ec5b7275e14547418549",
+    "url": "/js/onlineorderingrestaurants.442ccc7c.js"
   },
   {
-    "revision": "71216d6989f302b1ae09",
-    "url": "/js/pos.d502d79a.js"
+    "revision": "b40ea997a8e5e93074b0",
+    "url": "/js/pos.9ee1c80f.js"
   },
   {
     "revision": "250125ded49e58164f3686fed3339169",

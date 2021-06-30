@@ -21,6 +21,7 @@ export default Vue.extend({
       type: Boolean as PropType<boolean | undefined>,
       default: undefined,
     },
+    exactPath: Boolean,
     exactActiveClass: String,
     link: Boolean,
     href: [String, Object],
@@ -52,7 +53,7 @@ export default Vue.extend({
       return classes
     },
     computedRipple (): RippleOptions | boolean {
-      return this.ripple != null ? this.ripple : !this.disabled && this.isClickable
+      return this.ripple ?? (!this.disabled && this.isClickable)
     },
     isClickable (): boolean {
       if (this.disabled) return false
@@ -120,6 +121,7 @@ export default Vue.extend({
         Object.assign(data.props, {
           to: this.to,
           exact,
+          exactPath: this.exactPath,
           activeClass,
           exactActiveClass,
           append: this.append,

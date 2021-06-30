@@ -28,19 +28,16 @@
         <v-btn flat router
                to='/restaurant-website-mobile'
                exact>Web & Mobile Apps</v-btn>
-        <v-btn flat router
-               to='/restaurant-pos-quote-pricing'
-               exact>Get Quote</v-btn>
         <v-btn
                 router
                 to='/restaurant-support'
                 exact
                 color="blue darken-4"
-        >Support
+        >Contact
         </v-btn>
       </v-toolbar-items>
     </v-app-bar>
-  
+
     <v-content>
         <router-view/>
     </v-content>

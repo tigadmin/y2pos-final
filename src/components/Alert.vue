@@ -14,8 +14,8 @@
             dense
             transition="scale-transition"
     >
-        <small>Jan 17, 2020, 13:25</small>
-        <span class="pl-2"><small><b>YUMAPOS</b>, A leading open platform for restaurants, launches a new partners program in the United States... [read more]
+        <small>Jun 17, 2021, 13:25</small>
+        <span class="pl-2"><small><b>YUMAPOS</b>, announces "Due to popular demand, crypto currency integration is now under developement"
         </small></span>
     </v-alert>
 </div>

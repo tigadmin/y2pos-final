@@ -7,7 +7,7 @@
                         <div class="flex display-1 font-weight-light pb-3">YUMAPOS USA
                         </div>
                         <div class="flex subheading font-weight-light">
-                            Give us a call at (803) 354-2363 or complete the form below if you have any questions or concerns. New customers can schedule a conference call <router-link to="/meeting">here</router-link>
+                            Give us a call at (864) 990-1059
 
                         </div>
                     </div>
@@ -15,7 +15,7 @@
             </v-layout>
         </v-container>
     </section>
-    
+
 </template>
 
 <script>

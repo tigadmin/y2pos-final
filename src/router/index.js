@@ -13,7 +13,12 @@ const routes = [
   {
     path: '/meeting',
     target: '_blank',
-    beforeEnter () { location.href = 'https://netstudiosinc.pipedrive.com/scheduler/YoyjRqu1/yuma-meeting-(default)' }
+    beforeEnter () { location.href = 'https://www.yumapos.com/restaurant-support' }
+  },
+  {
+    path: '/contact-yuma',
+    target: '_blank',
+    beforeEnter () { location.href = 'https://www.yumapos.com/restaurant-support' }
   },
   {
     path: "/restaurant-pos-platform",
@@ -72,7 +77,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  //mode: "history",//
   base: process.env.BASE_URL,
   routes
 });

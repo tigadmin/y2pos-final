@@ -47,7 +47,7 @@
             dense
             dark
     >
-      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">Privacy</router-link> | <router-link to="/privacy">Terms Of Use</router-link></span>
+      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">Privacy</router-link> | <router-link to="/terms">Terms Of Use</router-link></span>
       <v-col cols="12" sm="12" md="6">
         <v-btn
                 absolute

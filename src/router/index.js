@@ -16,6 +16,16 @@ const routes = [
     beforeEnter () { location.href = 'https://www.yumapos.com/restaurant-support' }
   },
   {
+    path: '/terms',
+    target: '_blank',
+    beforeEnter () { location.href = 'https://www.yumapos.com/restaurant-pos/terms-2/' }
+  },
+  {
+    path: '/privacy',
+    target: '_blank',
+    beforeEnter () { location.href = 'https://www.yumapos.com/restaurant-pos/privacy/' }
+  },
+  {
     path: '/contact-yuma',
     target: '_blank',
     beforeEnter () { location.href = 'https://www.yumapos.com/restaurant-support' }

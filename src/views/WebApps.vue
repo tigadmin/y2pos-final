@@ -4,7 +4,6 @@
     <WebView2 />
     <RestaurantPos3 />
     <HelloBot5 />
-
   </div>
 </template>
 
@@ -21,7 +20,7 @@ export default {
     WebView,
     WebView2,
     HelloBot5,
-    RestaurantPos3,
+    RestaurantPos3
   }
 };
 </script>

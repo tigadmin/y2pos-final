@@ -7,7 +7,7 @@
                         <div class="flex display-1 font-weight-light pb-3">YUMAPOS USA
                         </div>
                         <div class="flex subheading font-weight-light">
-                            Give us a call at (864) 990-1059
+                            Give us a call at (726) 201-2108
 
                         </div>
                     </div>

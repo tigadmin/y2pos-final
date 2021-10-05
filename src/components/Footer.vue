@@ -23,7 +23,7 @@
                     color="black"
                     cols="12"
             >
-                {{ new Date().getFullYear() }} — <strong>YUMAPOS INC. Call (864) 990-1059</strong>
+                {{ new Date().getFullYear() }} — <strong>YUMAPOS INC. Call (803) 509-0090</strong>
             </v-col>
         </v-row>
     </v-footer>

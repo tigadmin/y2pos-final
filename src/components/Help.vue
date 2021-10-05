@@ -5,10 +5,10 @@
                 <v-flex xs12>
                     <div class="text-xs-center ma-5 pt-5 pb-5" align="center">
                         <div class="flex display-1 font-weight-light pb-3">
-                            Helping More Than 500 Clients In 5 Countries Power Their Restaurant
+                            Helping More Than 21,000+ Clients Globally
                         </div>
                         <div class="flex font-weight-light font-weight-light">
-                        
+
                         </div>
                     </div>
                 </v-flex>

@@ -1,4 +1,94 @@
 <template>
+  <v-app id="App" dark>
+    <v-navigation-drawer
+      :floating="primaryDrawer.floating"
+      :mini-variant="primaryDrawer.mini"
+      app
+      enable-resize-watcher
+      overflow
+      temporary
+      v-model="primaryDrawer.model"
+    >
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title class="title">
+            YUMAPOS
+          </v-list-item-title>
+          <v-list-item-subtitle>
+            Advanced Restaurant POS
+          </v-list-item-subtitle>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-divider></v-divider>
+
+      <v-list dense nav>
+        <v-list-item :key="item.title" :to="item.to" link v-for="item in items">
+          <v-list-item-icon>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+
+      <v-list-item>
+        <v-list-item-content>
+          <!--<v-list-item-title class="title">
+            SUPPORT
+          </v-list-item-title>
+          <v-list-item-subtitle>
+            Sales & Support
+          </v-list-item-subtitle>-->
+          <v-divider></v-divider>
+
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-list dense nav>
+        <v-list-item :key="contact.title" :to="contact.to" link v-for="contact in contacts">
+          <v-list-item-icon>
+            <v-icon>{{ contact.icon }}</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-content>
+            <v-list-item-title>{{ contact.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+    <v-app-bar app color="grey darken-4" dark>
+      <v-app-bar-nav-icon
+        @click.stop="primaryDrawer.model = !primaryDrawer.model"
+        v-if="primaryDrawer.type !== 'permanent'"
+      ><i class="material-icons">
+        menu
+      </i></v-app-bar-nav-icon
+      >
+      <v-toolbar-title>
+        <router-link to="/"
+        >
+          <!--suppress HtmlUnknownTarget -->
+          <v-img
+            alt="YUMAPOS Offical Logo"
+            class="shrink mt-1"
+            contain
+            src="@/assets/logo.png"
+            transition="scale-transition"
+            width="160"
+            responsive
+          />
+        </router-link>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+
+
+
+
+<!--<template>
   <v-app>
     <v-app-bar app color="grey darken-4" dark>
       <v-app-bar-nav-icon><i class="material-icons">menu</i></v-app-bar-nav-icon>
@@ -13,27 +103,31 @@
           responsive
         />
       </div>
+      <v-spacer></v-spacer>-->
 
-      <v-spacer></v-spacer>
+
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn router
                to='/'
                exact>Home</v-btn>
         <v-btn router
                to='/restaurant-pos-platform'
-               exact>Restaurant POS</v-btn>
+               exact>DIgital POS</v-btn>
         <v-btn flat router
                to='/online-ordering-restaurants'
                exact>Online Ordering</v-btn>
         <v-btn flat router
                to='/restaurant-website-mobile'
-               exact>Web & Mobile Apps</v-btn>
+               exact>Mobile App</v-btn>
+        <!--<v-btn flat router
+               to='/partners'
+               exact>Partners</v-btn>-->
         <v-btn
                 router
                 to='/restaurant-support'
                 exact
                 color="blue darken-4"
-        >Contact
+        >SIGNUP
         </v-btn>
       </v-toolbar-items>
     </v-app-bar>
@@ -47,7 +141,7 @@
             dense
             dark
     >
-      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">Privacy</router-link> | <router-link to="/terms">Terms Of Use</router-link></span>
+      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">(726) 201-2108</router-link> | <router-link to="/privacy">Privacy</router-link> | <router-link to="/terms">Terms Of Use</router-link></span>
       <v-col cols="12" sm="12" md="6">
         <v-btn
                 absolute
@@ -59,8 +153,8 @@
                 router
                 color="green darken-1"
                 class="ma-2"
-                to='/meeting'
-        ><i class="material-icons">event_available</i>
+                to='/restaurant-support'
+        ><i class="material-icons">help</i>
         </v-btn>
       </v-col>
     </v-footer>
@@ -86,21 +180,17 @@
       ],
       items: [
         { icon: 'store', title: 'HOME', to: '/' },
-        { icon: 'important_devices', title: 'WEBSITE DESIGN', to: '/webdesign/small-business-website-marketing.html' },
-        { icon: 'mobile_screen_share', title: 'DIGITAL MARKETING', to: '/digitalmarketing/local-business-digital-marketing.html' },
-        { icon: 'mobile_screen_share', title: 'HOW IT WORKS', to: '/works/local-business-web.html' },
-        { icon: 'public', title: 'PRICING', to: '/pricing/web-app-local-business-pricing/html' },
-        { icon: 'desktop_mac', title: 'CONTACT US', to: '/start/start-now.html' },
-        { icon: 'group', title: 'INSIDER ACCESS', to: '/marketing' },
-        { icon: 'phone', title: '(803) 560-4913' },
+        { icon: 'important_devices', title: 'RESTAURANT POS', to: '/restaurant-pos-platform' },
+        { icon: 'mobile_screen_share', title: 'RESTAURANT ORDERING', to: '/online-ordering-restaurants' },
+        { icon: 'mobile_screen_share', title: 'RESTAURANT APPS', to: '/restaurant-website-mobile' },
+        { icon: 'desktop_mac', title: 'START NOW', to: '/restaurant-support' },
       ],
-      contact: [
-        { icon: 'phone', title: '(803) 560-4913' },
-        { icon: 'email', title: 'jason@netstudiosinc.com' },
-        { icon: 'contact_support', title: 'support@netstudiosinc.com' },
-        { icon: 'library_books', title: 'Knowledge Base', to: '/ghost' },
-        { icon: 'supervisor_account', title: 'Submit Ticket', to: '/ticket' },
-        { icon: 'library_books', title: 'Brochure', to: '/brochure' },
+      contacts: [
+        { icon: 'phone', title: '(726) 201-2108' },
+        { icon: 'email', title: 'sales@yumapos.com' },
+        { icon: 'contact_support', title: 'support@yumapos.com' },
+        { icon: 'library_books', title: 'Knowledge Base', to: '/guide' },
+        { icon: 'supervisor_account', title: 'Submit Ticket', to: '/pos-ticket' },
       ],
       drawers: ['Default (no property)', 'Permanent', 'Temporary'],
       primaryDrawer: {

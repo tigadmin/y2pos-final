@@ -23,7 +23,7 @@ export default {
     RestaurantOnlineOrdering2,
     RestaurantOnlineOrdering3,
     HelloBot4,
-    RestaurantPos3,
+    RestaurantPos3
   }
 };
 </script>

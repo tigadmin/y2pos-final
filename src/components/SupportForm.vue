@@ -11,7 +11,7 @@
                              <v-list>
                                  <v-list-tile-content class="ma-2"><b>YUMAPOS USA Corporate</b></v-list-tile-content>
                                  <v-list-tile-content class="ma-2">1541-D Wade Hampton Blvd. Greenville, SC 29609</v-list-tile-content>
-                                 <v-list-tile-content class="ma-2"><b>(864) 990-1059</b></v-list-tile-content>
+                                 <v-list-tile-content class="ma-2"><b>(726) 201-2108</b></v-list-tile-content>
                              </v-list>
                          </v-card-text>
                      </v-card>

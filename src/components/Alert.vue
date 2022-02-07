@@ -14,8 +14,8 @@
             dense
             transition="scale-transition"
     >
-        <small>September 17, 2021, 13:25</small>
-        <span class="pl-2"><small><b>YUMAPOS</b>, announces "Due to popular demand, crypto currency integration is now under developement"
+        <small>Jan 31, 2022</small>
+        <span class="pl-2"><small><b>YUMAPOS</b> expands global footprint in digital POS software"
         </small></span>
     </v-alert>
 </div>

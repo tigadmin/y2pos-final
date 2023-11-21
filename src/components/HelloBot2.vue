@@ -9,18 +9,18 @@
                     justify="center"
             >
                 <v-col class="text-center" cols="12">
-                    <h1 class="display-2 pb-5 font-weight-thin">#1 Digital POS System For Restaurants</h1>
+                    <h1 class="display-2 pb-5 font-weight-thin">#1 Digital POS System For Retail & Restaurants</h1>
                     <h4 class="headline pb-5">
-                        No Commission | No Hidden Fees | No Middle Man</h4>
-                  <!--<router-link to="/restaurant-pos-platform">
+                      Manage every facet of your daily operations seamlessly through a flexible, all-encompassing platform.</h4>
+                  <router-link to="/restaurant-pos-platform">
                       <v-btn @click.stop="dialog = !dialog" aria-label="Website Pricing" color="light-blue darken-4" dark class="ma-2" round>
-                          Learn More
+                          Request a Demo
                       </v-btn>
-                  </router-link>-->
+                  </router-link>
                   <div class="mt-2">
                       <img alt="Restaurant POS Review" height="20" responsive src="/img/img/top-local-marketing.png"></div>
                   <p class="font-weight-regular text--grey darken-1">
-                      Call Now | (864) 990-1059
+                      Call Now | (864) 508-7140
                   </p>
               </v-col>
           </v-row>

@@ -6,16 +6,16 @@
             justify-center
     >
       <h1 class="d-flex pa-2 display-2 font-weight-thin">World-Class Point-Of-Sale Software</h1>
-      <h4 class="headline pb-5">A Digital POS system that syncs across all digital channels through a single, powerful platform</h4>
-      <!-- <router-link to="/restaurant-support">
+      <h4 class="headline pb-5">Elevate your business with our award-winning POS solution designed for hospitality and retail</h4>
+       <router-link to="/restaurant-support">
          <v-btn @click.stop="dialog = !dialog" aria-label="Website Pricing" color="light-blue darken-4" dark class="ma-2" round>
            Schedule Your Demo
          </v-btn>
-       </router-link>-->
+       </router-link>
        <div class="mt-2">
          <img alt="Restaurant POS Review" height="20" responsive src="/img/img/top-local-marketing.png"></div>
        <p class="font-weight-regular text--grey darken-1">
-         24/7 Support | (726) 201-2108
+         24/7 Support | (864) 508-7140
        </p>
      </v-layout>
    </v-parallax>

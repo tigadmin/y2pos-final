@@ -14,8 +14,8 @@
             dense
             transition="scale-transition"
     >
-        <small>Jan 31, 2022</small>
-        <span class="pl-2"><small><b>YUMAPOS</b> expands global footprint in digital POS software"
+        <small>{{ new Date().getFullYear() }}</small>
+        <span class="pl-2"><small><b>Y2POS</b> expands footprint to 10,000+ global installs. Y2POS INC. (864) 508-7140
         </small></span>
     </v-alert>
 </div>

@@ -4,11 +4,11 @@
             <v-layout align-center row wrap>
                 <v-flex xs12>
                     <div class="text-xs-center ma-5 pt-5 pb-5" align="center">
-                        <div class="flex display-1 font-weight-light pb-3">Manage Your Restaurant More Efficiently
+                        <div class="flex display-1 font-weight-light pb-3">Manage Your Business More Efficiently
                         </div>
-                        <div class="flex subheading font-weight-light">
-                            YUMA POS syncs across all locations, devices, and channels allowing you to manage your restaurant more efficiently.                        </div>
-                    </div>
+                      <div class="flex subheading font-weight-light">
+                        Running a successful business poses challenges, from tasks like inventory management, reporting, and ensuring top-notch customer service to the daily responsibilities of updating menus, taking orders, and managing payments.
+                      </div></div>
                 </v-flex>
                 <v-flex md4 xs12>
                     <v-card class="elevation-0 transparent">

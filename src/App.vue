@@ -76,7 +76,7 @@
             alt="YUMAPOS Offical Logo"
             class="shrink mt-1"
             contain
-            src="@/assets/logo.png"
+            src="@/assets/y2pos-logo.png"
             transition="scale-transition"
             width="160"
             responsive
@@ -118,7 +118,7 @@
                exact>Online Ordering</v-btn>
         <v-btn flat router
                to='/restaurant-website-mobile'
-               exact>Mobile App</v-btn>
+               exact>Mobile Apps</v-btn>
         <!--<v-btn flat router
                to='/partners'
                exact>Partners</v-btn>-->
@@ -141,7 +141,7 @@
             dense
             dark
     >
-      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">(726) 201-2108</router-link> | <router-link to="/privacy">Privacy</router-link> | <router-link to="/terms">Terms Of Use</router-link></span>
+      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">(864) 508-7140</router-link> | <router-link to="/privacy">Privacy</router-link> | <router-link to="/terms">Terms Of Use</router-link></span>
       <v-col cols="12" sm="12" md="6">
         <v-btn
                 absolute

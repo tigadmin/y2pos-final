@@ -20,7 +20,7 @@
                   <div class="mt-2">
                       <img alt="Restaurant POS Review" height="20" responsive src="/img/img/top-local-marketing.png"></div>
                   <p class="font-weight-regular text--grey darken-1">
-                      Call Now | (864) 990-1059
+                      Call Now | (864) 508-7140
                   </p>
               </v-col>
           </v-row>

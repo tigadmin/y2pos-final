@@ -4,10 +4,10 @@
             <v-layout align-center row wrap>
                 <v-flex xs12>
                     <div class="text-xs-center ma-5 pt-5 pb-5" align="center">
-                        <div class="flex display-1 font-weight-light pb-3">Yuma POS Features
+                        <div class="flex display-1 font-weight-light pb-3">Y2POS Features
                         </div>
                         <div class="flex subheading font-weight-light">
-                            Today’s restaurants have never had more demand or opportunities—to reach their customers in new and exciting ways.
+                            Today’s business have never had more demand or opportunities—to reach their customers in new and exciting digital way.
                         </div>
                     </div>
                 </v-flex>
@@ -15,7 +15,7 @@
                     <v-card class="elevation-0 transparent">
                         <v-img alt="Integrated Marketing POS System" contain src="/img/restaurant-online/restaurant-online-ordering-dashboard.jpg">
                         </v-img>
-                        <v-card-title class="justify-center">Restaurant Back-Office</v-card-title>
+                        <v-card-title class="justify-center">Back-Office</v-card-title>
                         <v-card-text class="grey--text  text--darken-2 font-weight-light">
                             Manage every aspect of your restaurant through a single dashboard. Update menus, promotions, pricing, delivery zones across all channels including in-store POS, IOS, Android, and Web Apps.
                         </v-card-text>

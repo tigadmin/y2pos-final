@@ -5,10 +5,9 @@
                 <v-flex xs12>
                     <div class="text-xs-center ma-5 pt-5 pb-5" align="center">
                         <div class="flex display-1 font-weight-light pb-3">
-                            Cloud Based POS Platform For Restaurants
+                            Cloud Based POS & Marketing Platform For businesses.
                         </div>
-                        <div class="flex subheading font-weight-light">
-                            YUMA POS is an enterprise POS system that includes multi-unit support, web & mobile apps, online ordering, push notifications, SMS messaging, email marketing, software customizations, loyalty, gift cards and more.                        </div>
+                        <div class="flex subheading font-weight-light">Y2POS stands as a robust enterprise-level POS system, offering multi-unit support, web and mobile apps, online ordering, push notifications, SMS messaging, delivery driver tracking, software customizations, loyalty programs, gift cards, and an array of additional features.</div>
                     </div>
                 </v-flex>
                 <v-flex md4 xs12>

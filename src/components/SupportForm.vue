@@ -9,9 +9,9 @@
                          </v-card-content>
                          <v-card-text class="grey--text  text--darken-2 font-weight-light">
                              <v-list>
-                                 <v-list-tile-content class="ma-2"><b>YUMAPOS USA Corporate</b></v-list-tile-content>
-                                 <v-list-tile-content class="ma-2">1541-D Wade Hampton Blvd. Greenville, SC 29609</v-list-tile-content>
-                                 <v-list-tile-content class="ma-2"><b>(726) 201-2108</b></v-list-tile-content>
+                                 <v-list-tile-content class="ma-2"><b>Y2POS Corporate</b></v-list-tile-content>
+                                 <v-list-tile-content class="ma-2">1235 East Blvd Ste-E 2025 Charlotte, NC 28203</v-list-tile-content>
+                                 <v-list-tile-content class="ma-2"><b>(864) 508-7140</b></v-list-tile-content>
                              </v-list>
                          </v-card-text>
                      </v-card>

@@ -4,12 +4,11 @@
             <v-layout align-center row wrap>
                 <v-flex xs12>
                     <div class="text-xs-center ma-5 pt-5 pb-5" align="center">
-                        <div class="flex display-1 font-weight-light pb-3">YUMAPOS USA
+                        <div class="flex display-1 font-weight-light pb-3">Y2POS USA
                         </div>
                         <div class="flex subheading font-weight-light">
-                            Give us a call at (726) 201-2108
-
-                        </div>
+                          Experience the ultimate all-in-one cloud-based POS system, finely tuned for hospitality and retail. Seamlessly synchronized across all locations, devices, and channels, it empowers you to efficiently manage your shop with unparalleled ease.
+                          Give us a call at (864) 508-7140</div>
                     </div>
                 </v-flex>
             </v-layout>

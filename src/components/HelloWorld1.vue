@@ -7,7 +7,7 @@
                         <div class="flex display-1 font-weight-light pb-3">Everything You Need For Success
                         </div>
                         <div class="flex subheading font-weight-light">
-                            YUMA POS syncs across all locations, devices, and channels allowing you to manage your restaurant more efficiently.                        </div>
+                            Y2POS syncs across all locations, devices, and channels allowing you to manage your restaurant more efficiently.                        </div>
                     </div>
                 </v-flex>
                 <v-flex md4 xs12>

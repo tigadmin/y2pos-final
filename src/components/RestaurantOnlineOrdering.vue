@@ -8,7 +8,7 @@
                     justify="center"
             >
                 <v-col class="text-center" cols="12">
-                    <h1 class="display-2 pb-5 font-weight-thin">Take Back Control Of Your Online Ordering</h1>
+                    <h1 class="display-2 pb-5 font-weight-thin">Take Control Of Your Online Ordering</h1>
                     <h4 class="headline pb-5">
                         No Commission | No Fees | No Middle Man</h4>
                   <!--<router-link to="/meeting">

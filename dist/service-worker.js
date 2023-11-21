@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.654c3d53329ad994c482201ad58bef7d.js"
+  "/precache-manifest.986c61fed0eddb78c070328314fd9ecb.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "YUMAPOS"});

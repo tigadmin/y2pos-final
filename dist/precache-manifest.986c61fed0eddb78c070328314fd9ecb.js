@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2f8b9f60e715ddfccdc",
+    "revision": "7e3723b6f950e0e4fd06",
     "url": "/css/app.5765947c.css"
   },
   {
@@ -8,11 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/chunk-vendors.7afabcd5.css"
   },
   {
-    "revision": "f1376089d52e6183e35a",
+    "revision": "cad1a5e92824e4c18a34",
     "url": "/css/onlineorderingrestaurants.a5a400e9.css"
   },
   {
-    "revision": "24160325e2f7c6a77116",
+    "revision": "3439f1f814fef29447fd",
     "url": "/css/pos.70c7a627.css"
   },
   {
@@ -3292,7 +3292,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/y2pos-logo.8781318a.png"
   },
   {
-    "revision": "b89460ea21b64496b3b14942d6cf7659",
+    "revision": "bf226480842e021c6a15aafac5c96ba3",
     "url": "/index.html"
   },
   {
@@ -3300,20 +3300,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.7f8b1dda.js"
   },
   {
-    "revision": "f2f8b9f60e715ddfccdc",
-    "url": "/js/app.10eed40d.js"
+    "revision": "7e3723b6f950e0e4fd06",
+    "url": "/js/app.95cffeef.js"
   },
   {
     "revision": "b20d797933d779b27389",
     "url": "/js/chunk-vendors.1a30de7d.js"
   },
   {
-    "revision": "f1376089d52e6183e35a",
-    "url": "/js/onlineorderingrestaurants.a0a32b23.js"
+    "revision": "cad1a5e92824e4c18a34",
+    "url": "/js/onlineorderingrestaurants.b5c3c5fc.js"
   },
   {
-    "revision": "24160325e2f7c6a77116",
-    "url": "/js/pos.d1414edf.js"
+    "revision": "3439f1f814fef29447fd",
+    "url": "/js/pos.c7a42a75.js"
   },
   {
     "revision": "250125ded49e58164f3686fed3339169",

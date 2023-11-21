@@ -20,7 +20,7 @@
                   <div class="mt-2">
                       <img alt="Restaurant POS Review" height="20" responsive src="/img/img/top-local-marketing.png"></div>
                   <p class="font-weight-regular text--grey darken-1">
-                      24/7 Support | (726) 201-2108
+                      24/7 Support | (864) 508-7140
                   </p>
               </v-col>
           </v-row>

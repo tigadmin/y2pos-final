@@ -12,10 +12,10 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
-            YUMAPOS
+            Y2POS
           </v-list-item-title>
           <v-list-item-subtitle>
-            Advanced Restaurant POS
+            Advanced POS Systems
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -73,7 +73,7 @@
         >
           <!--suppress HtmlUnknownTarget -->
           <v-img
-            alt="YUMAPOS Offical Logo"
+            alt="Y2POS Offical Logo"
             class="shrink mt-1"
             contain
             src="@/assets/y2pos-logo.png"
@@ -112,22 +112,25 @@
                exact>Home</v-btn>
         <v-btn router
                to='/restaurant-pos-platform'
-               exact>DIgital POS</v-btn>
+               exact>POS Solution</v-btn>
         <v-btn flat router
                to='/online-ordering-restaurants'
                exact>Online Ordering</v-btn>
         <v-btn flat router
                to='/restaurant-website-mobile'
                exact>Mobile Apps</v-btn>
+        <v-btn flat router
+               to='/store'
+               exact>ORDER POS</v-btn>
         <!--<v-btn flat router
                to='/partners'
                exact>Partners</v-btn>-->
         <v-btn
                 router
-                to='/restaurant-support'
+                to='/meeting-y2'
                 exact
                 color="blue darken-4"
-        >SIGNUP
+        >Schedule Meeting
         </v-btn>
       </v-toolbar-items>
     </v-app-bar>
@@ -141,7 +144,7 @@
             dense
             dark
     >
-      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">(864) 508-7140</router-link> | <router-link to="/privacy">Privacy</router-link> | <router-link to="/terms">Terms Of Use</router-link></span>
+      <span class="px-4 overline">&copy; {{ new Date().getFullYear() }} NET Studios Inc. <router-link to="/privacy">(864) 508-7140</router-link> | <router-link to="/privacy">Privacy</router-link> | <router-link to="/terms">Terms Of Use</router-link> | <router-link to="/support-y2pos">Documentation</router-link></span>
       <v-col cols="12" sm="12" md="6">
         <v-btn
                 absolute

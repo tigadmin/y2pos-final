@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e3723b6f950e0e4fd06",
-    "url": "/css/app.5765947c.css"
+    "revision": "739bdebd71e68d168316",
+    "url": "/css/app.0f99826f.css"
   },
   {
     "revision": "b20d797933d779b27389",
@@ -3292,7 +3292,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/y2pos-logo.8781318a.png"
   },
   {
-    "revision": "bf226480842e021c6a15aafac5c96ba3",
+    "revision": "77f6c01d0bf52187dd54871a613a5873",
     "url": "/index.html"
   },
   {
@@ -3300,8 +3300,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.7f8b1dda.js"
   },
   {
-    "revision": "7e3723b6f950e0e4fd06",
-    "url": "/js/app.95cffeef.js"
+    "revision": "739bdebd71e68d168316",
+    "url": "/js/app.e4ad80a1.js"
   },
   {
     "revision": "b20d797933d779b27389",

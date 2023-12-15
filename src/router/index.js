@@ -11,6 +11,34 @@ const routes = [
     component: Home
   },
   {
+    path: "/store",
+    target: "_blank",
+    beforeEnter() {
+      location.href = "https://store.y2pos.com";
+    }
+  },
+  {
+    path: "/meeting-y2",
+    target: "_blank",
+    beforeEnter() {
+      location.href = "https://calendly.com/netstudios/netsitesonline";
+    }
+  },
+  {
+    path: "/meeting-y2",
+    target: "_blank",
+    beforeEnter() {
+      location.href = "https://calendly.com/netstudios/netsitesonline";
+    }
+  },
+  {
+    path: "/support-y2pos",
+    target: "_blank",
+    beforeEnter() {
+      location.href = "https://support.y2pos.com";
+    }
+  },
+  {
     path: "/meeting",
     target: "_blank",
     beforeEnter() {

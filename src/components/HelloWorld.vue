@@ -7,7 +7,7 @@
     >
       <h1 class="d-flex pa-2 display-2 font-weight-thin">World-Class Point-Of-Sale Software</h1>
       <h4 class="headline pb-5">Elevate your business with our award-winning POS solution designed for hospitality and retail</h4>
-       <router-link to="/restaurant-support">
+       <router-link to="/meeting-y2">
          <v-btn @click.stop="dialog = !dialog" aria-label="Website Pricing" color="light-blue darken-4" dark class="ma-2" round>
            Schedule Your Demo
          </v-btn>

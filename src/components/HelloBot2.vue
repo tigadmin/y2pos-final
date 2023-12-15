@@ -12,7 +12,7 @@
                     <h1 class="display-2 pb-5 font-weight-thin">#1 Digital POS System For Retail & Restaurants</h1>
                     <h4 class="headline pb-5">
                       Manage every facet of your daily operations seamlessly through a flexible, all-encompassing platform.</h4>
-                  <router-link to="/restaurant-pos-platform">
+                  <router-link to="/meeting-y2">
                       <v-btn @click.stop="dialog = !dialog" aria-label="Website Pricing" color="light-blue darken-4" dark class="ma-2" round>
                           Request a Demo
                       </v-btn>

@@ -119,10 +119,10 @@
         <v-btn flat router
                to='/restaurant-website-mobile'
                exact>Mobile Apps</v-btn>
-        <v-btn flat router
+        <!--<v-btn flat router
                to='/store'
                exact>ORDER POS</v-btn>
-        <!--<v-btn flat router
+        <v-btn flat router
                to='/partners'
                exact>Partners</v-btn>-->
         <v-btn
@@ -189,9 +189,9 @@
         { icon: 'desktop_mac', title: 'START NOW', to: '/restaurant-support' },
       ],
       contacts: [
-        { icon: 'phone', title: '(726) 201-2108' },
+        { icon: 'phone', title: '(803) 932-8060' },
         { icon: 'email', title: 'sales@yumapos.com' },
-        { icon: 'contact_support', title: 'support@yumapos.com' },
+        { icon: 'contact_support', title: 'jason@netstudiosinc.com' },
         { icon: 'library_books', title: 'Knowledge Base', to: '/guide' },
         { icon: 'supervisor_account', title: 'Submit Ticket', to: '/pos-ticket' },
       ],
